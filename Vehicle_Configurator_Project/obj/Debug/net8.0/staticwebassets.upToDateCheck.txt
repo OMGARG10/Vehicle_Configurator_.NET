@@ -1,0 +1,12 @@
+wwwroot\images\1series.jpg
+wwwroot\images\3series.jpg
+wwwroot\images\bolero.jpg
+wwwroot\images\creta.jpg
+wwwroot\images\harrier.jpg
+wwwroot\images\i20.jpg
+wwwroot\images\thar.jpg
+wwwroot\images\tiago.jpg
+wwwroot\images\tigor.jpeg
+wwwroot\images\verna.jpg
+wwwroot\images\x5.jpg
+wwwroot\images\xuv300.jpg

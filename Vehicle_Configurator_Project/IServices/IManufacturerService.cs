@@ -6,5 +6,7 @@ namespace Vehicle_Configurator_Project.IServices
     {
         Task<List<Manufacturer>> GetAllAsync();
         Task<List<Manufacturer>> GetBySegmentIdAsync(int segId);
+        Task<Manufacturer> GetManufacturerByIdAsync(int manufacturerId);
+
     }
 }

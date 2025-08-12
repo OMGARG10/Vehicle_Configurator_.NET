@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Vehicle_Configurator_Project.IRepositories;
 using Vehicle_Configurator_Project.Models;
 
@@ -45,7 +44,14 @@ namespace Vehicle_Configurator_Project.Repositories
             await _context.SaveChangesAsync();
             return vehicleDetail;
         }
+
+        public async Task<List<VehicleDetail>> GetByModelIdAndIsConfigurableAsync(int modelId, char isConfigurable)
+        {
+            return await _context.VehicleDetails
+                .Include(v => v.Model)
+                .Include(v => v.Component)
+                .Where(v => v.ModelId == modelId && v.IsConfigurable == isConfigurable)
+                .ToListAsync();
+        }
     }
-
 }
-

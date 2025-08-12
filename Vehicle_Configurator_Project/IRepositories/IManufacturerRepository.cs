@@ -6,5 +6,6 @@ namespace Vehicle_Configurator_Project.IRepositories
     {
         Task<List<Manufacturer>> GetAllAsync();
         Task<List<Manufacturer>> GetBySegmentIdAsync(int segId);
+        Task<Manufacturer> GetByIdAsync(int id);
     }
 }

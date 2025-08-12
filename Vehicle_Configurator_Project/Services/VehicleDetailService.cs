@@ -32,5 +32,10 @@ namespace Vehicle_Configurator_Project.Services
         {
             return _repository.CreateAsync(vehicleDetail);
         }
+
+        public Task<List<VehicleDetail>> GetByModelIdAndIsConfigurableAsync(int modelId, char isConfigurable)
+        {
+            return _repository.GetByModelIdAndIsConfigurableAsync(modelId, isConfigurable);
+        }
     }
 }

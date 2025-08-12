@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\1series.jpg",
+      "PackagePath": "staticwebassets\\images\\1series.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\3series.jpg",
+      "PackagePath": "staticwebassets\\images\\3series.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\bolero.jpg",
+      "PackagePath": "staticwebassets\\images\\bolero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\creta.jpg",
+      "PackagePath": "staticwebassets\\images\\creta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\harrier.jpg",
+      "PackagePath": "staticwebassets\\images\\harrier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\i20.jpg",
+      "PackagePath": "staticwebassets\\images\\i20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\thar.jpg",
+      "PackagePath": "staticwebassets\\images\\thar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tiago.jpg",
+      "PackagePath": "staticwebassets\\images\\tiago.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tigor.jpeg",
+      "PackagePath": "staticwebassets\\images\\tigor.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\verna.jpg",
+      "PackagePath": "staticwebassets\\images\\verna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\x5.jpg",
+      "PackagePath": "staticwebassets\\images\\x5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\xuv300.jpg",
+      "PackagePath": "staticwebassets\\images\\xuv300.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vehicle_Configurator_Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vehicle_Configurator_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vehicle_Configurator_Project.props",
+      "PackagePath": "build\\Vehicle_Configurator_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vehicle_Configurator_Project.props",
+      "PackagePath": "buildMultiTargeting\\Vehicle_Configurator_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vehicle_Configurator_Project.props",
+      "PackagePath": "buildTransitive\\Vehicle_Configurator_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

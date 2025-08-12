@@ -1,12 +1,1258 @@
 {
   "Version": 1,
-  "Hash": "l+8WKcMqe/nlqjzHy10ebA2vt7Sjh61rlO3A7PK+0Bs=",
+  "Hash": "Ox8olI6nAryFA2LTn3FXFZravwQhPNiRBveeZyEs9ck=",
   "Source": "Vehicle_Configurator_Project",
   "BasePath": "_content/Vehicle_Configurator_Project",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Vehicle_Configurator_Project\\wwwroot",
+      "Source": "Vehicle_Configurator_Project",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\1series.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/1series#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0usqbu73j",
+      "Integrity": "FnOVm01AbIqQK35gP+0r0iGTkS4dKUAK77zNs4zcvrM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1series.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\3series.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/3series#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q6pvw5c7td",
+      "Integrity": "QmUJP9zwtYBZYPkaZysDMygfsf5Fz7PdaGqcxQicwgg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3series.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\bolero.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/bolero#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w8lzzypdww",
+      "Integrity": "UPHVJM8CS/tYeHJTDqgFcON5FeMFtjPPAJeMp8dyOHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bolero.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\creta.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/creta#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dju60dzn3z",
+      "Integrity": "GSR1hcYXXJMHBBHWdzgcm4P9Ea4b+MHRyAiNTGkJyjs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\creta.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\harrier.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/harrier#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "luhk0s8mhm",
+      "Integrity": "o3jMJN+8a5Sx8ztEIYsc8IumXURy3dsnRTNd1AlxdNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\harrier.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\i20.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/i20#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ad09eofwcc",
+      "Integrity": "HogyxSBJY5szAxmpuaWPrPafVeJi7M9MWVCLvsql/AM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\i20.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\thar.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/thar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sda0ztsbex",
+      "Integrity": "cLTFJ+fzODjFUVx4kqpKw9UZ8jT+IIMhfGb/U/8gqdA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\thar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tiago.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/tiago#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzbepmsg2m",
+      "Integrity": "zjq3y4gK/kTodZLooV6qDCyaOr60/TZwkcD6J1uNGJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tiago.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tigor.jpeg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/tigor#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zuvg9nv1yw",
+      "Integrity": "S5pKAinyDkIA1CEIW/Jy/2GPPLyAmsfdthL/pKrYhDM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tigor.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\verna.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/verna#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vkihaog3mf",
+      "Integrity": "sR1WGUI0/gnEvCZl6fHr7Ord5+ttSDO0vp60Bcnz8C4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\verna.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\x5.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/x5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "871z62t76b",
+      "Integrity": "LHFNti7JmTDCnJMI4FOem9/ulU/t9ANxJovC9uWqqv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\x5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\xuv300.jpg",
+      "SourceId": "Vehicle_Configurator_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\",
+      "BasePath": "_content/Vehicle_Configurator_Project",
+      "RelativePath": "images/xuv300#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6vplvutke",
+      "Integrity": "5WQsTzm0E5uarJL04qFcmRWi+N1y5Zirn33Mh2P1EbM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\xuv300.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/1series.a0usqbu73j.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\1series.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FnOVm01AbIqQK35gP+0r0iGTkS4dKUAK77zNs4zcvrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:58:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0usqbu73j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/1series.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FnOVm01AbIqQK35gP+0r0iGTkS4dKUAK77zNs4zcvrM="
+        }
+      ]
+    },
+    {
+      "Route": "images/1series.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\1series.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188106"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FnOVm01AbIqQK35gP+0r0iGTkS4dKUAK77zNs4zcvrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:58:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FnOVm01AbIqQK35gP+0r0iGTkS4dKUAK77zNs4zcvrM="
+        }
+      ]
+    },
+    {
+      "Route": "images/3series.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\3series.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1578394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QmUJP9zwtYBZYPkaZysDMygfsf5Fz7PdaGqcxQicwgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QmUJP9zwtYBZYPkaZysDMygfsf5Fz7PdaGqcxQicwgg="
+        }
+      ]
+    },
+    {
+      "Route": "images/3series.q6pvw5c7td.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\3series.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1578394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QmUJP9zwtYBZYPkaZysDMygfsf5Fz7PdaGqcxQicwgg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q6pvw5c7td"
+        },
+        {
+          "Name": "label",
+          "Value": "images/3series.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QmUJP9zwtYBZYPkaZysDMygfsf5Fz7PdaGqcxQicwgg="
+        }
+      ]
+    },
+    {
+      "Route": "images/bolero.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\bolero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UPHVJM8CS/tYeHJTDqgFcON5FeMFtjPPAJeMp8dyOHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:03:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UPHVJM8CS/tYeHJTDqgFcON5FeMFtjPPAJeMp8dyOHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/bolero.w8lzzypdww.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\bolero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UPHVJM8CS/tYeHJTDqgFcON5FeMFtjPPAJeMp8dyOHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:03:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8lzzypdww"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bolero.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UPHVJM8CS/tYeHJTDqgFcON5FeMFtjPPAJeMp8dyOHU="
+        }
+      ]
+    },
+    {
+      "Route": "images/creta.dju60dzn3z.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\creta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GSR1hcYXXJMHBBHWdzgcm4P9Ea4b+MHRyAiNTGkJyjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:52:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dju60dzn3z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/creta.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GSR1hcYXXJMHBBHWdzgcm4P9Ea4b+MHRyAiNTGkJyjs="
+        }
+      ]
+    },
+    {
+      "Route": "images/creta.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\creta.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GSR1hcYXXJMHBBHWdzgcm4P9Ea4b+MHRyAiNTGkJyjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:52:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GSR1hcYXXJMHBBHWdzgcm4P9Ea4b+MHRyAiNTGkJyjs="
+        }
+      ]
+    },
+    {
+      "Route": "images/harrier.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\harrier.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3jMJN+8a5Sx8ztEIYsc8IumXURy3dsnRTNd1AlxdNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:55:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3jMJN+8a5Sx8ztEIYsc8IumXURy3dsnRTNd1AlxdNQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/harrier.luhk0s8mhm.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\harrier.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o3jMJN+8a5Sx8ztEIYsc8IumXURy3dsnRTNd1AlxdNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:55:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "luhk0s8mhm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/harrier.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o3jMJN+8a5Sx8ztEIYsc8IumXURy3dsnRTNd1AlxdNQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/i20.ad09eofwcc.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\i20.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HogyxSBJY5szAxmpuaWPrPafVeJi7M9MWVCLvsql/AM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:42:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ad09eofwcc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/i20.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HogyxSBJY5szAxmpuaWPrPafVeJi7M9MWVCLvsql/AM="
+        }
+      ]
+    },
+    {
+      "Route": "images/i20.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\i20.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HogyxSBJY5szAxmpuaWPrPafVeJi7M9MWVCLvsql/AM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:42:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HogyxSBJY5szAxmpuaWPrPafVeJi7M9MWVCLvsql/AM="
+        }
+      ]
+    },
+    {
+      "Route": "images/thar.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\thar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cLTFJ+fzODjFUVx4kqpKw9UZ8jT+IIMhfGb/U/8gqdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cLTFJ+fzODjFUVx4kqpKw9UZ8jT+IIMhfGb/U/8gqdA="
+        }
+      ]
+    },
+    {
+      "Route": "images/thar.sda0ztsbex.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\thar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cLTFJ+fzODjFUVx4kqpKw9UZ8jT+IIMhfGb/U/8gqdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sda0ztsbex"
+        },
+        {
+          "Name": "label",
+          "Value": "images/thar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cLTFJ+fzODjFUVx4kqpKw9UZ8jT+IIMhfGb/U/8gqdA="
+        }
+      ]
+    },
+    {
+      "Route": "images/tiago.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tiago.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zjq3y4gK/kTodZLooV6qDCyaOr60/TZwkcD6J1uNGJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:48:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zjq3y4gK/kTodZLooV6qDCyaOr60/TZwkcD6J1uNGJg="
+        }
+      ]
+    },
+    {
+      "Route": "images/tiago.mzbepmsg2m.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tiago.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33029"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zjq3y4gK/kTodZLooV6qDCyaOr60/TZwkcD6J1uNGJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:48:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzbepmsg2m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tiago.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zjq3y4gK/kTodZLooV6qDCyaOr60/TZwkcD6J1uNGJg="
+        }
+      ]
+    },
+    {
+      "Route": "images/tigor.jpeg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tigor.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S5pKAinyDkIA1CEIW/Jy/2GPPLyAmsfdthL/pKrYhDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 06 Aug 2025 08:43:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S5pKAinyDkIA1CEIW/Jy/2GPPLyAmsfdthL/pKrYhDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/tigor.zuvg9nv1yw.jpeg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\tigor.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61140"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S5pKAinyDkIA1CEIW/Jy/2GPPLyAmsfdthL/pKrYhDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 06 Aug 2025 08:43:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zuvg9nv1yw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tigor.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S5pKAinyDkIA1CEIW/Jy/2GPPLyAmsfdthL/pKrYhDM="
+        }
+      ]
+    },
+    {
+      "Route": "images/verna.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\verna.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sR1WGUI0/gnEvCZl6fHr7Ord5+ttSDO0vp60Bcnz8C4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:44:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sR1WGUI0/gnEvCZl6fHr7Ord5+ttSDO0vp60Bcnz8C4="
+        }
+      ]
+    },
+    {
+      "Route": "images/verna.vkihaog3mf.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\verna.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sR1WGUI0/gnEvCZl6fHr7Ord5+ttSDO0vp60Bcnz8C4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:44:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vkihaog3mf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/verna.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sR1WGUI0/gnEvCZl6fHr7Ord5+ttSDO0vp60Bcnz8C4="
+        }
+      ]
+    },
+    {
+      "Route": "images/x5.871z62t76b.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\x5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHFNti7JmTDCnJMI4FOem9/ulU/t9ANxJovC9uWqqv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:59:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "871z62t76b"
+        },
+        {
+          "Name": "label",
+          "Value": "images/x5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHFNti7JmTDCnJMI4FOem9/ulU/t9ANxJovC9uWqqv8="
+        }
+      ]
+    },
+    {
+      "Route": "images/x5.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\x5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHFNti7JmTDCnJMI4FOem9/ulU/t9ANxJovC9uWqqv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 11:59:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHFNti7JmTDCnJMI4FOem9/ulU/t9ANxJovC9uWqqv8="
+        }
+      ]
+    },
+    {
+      "Route": "images/xuv300.j6vplvutke.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\xuv300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5WQsTzm0E5uarJL04qFcmRWi+N1y5Zirn33Mh2P1EbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6vplvutke"
+        },
+        {
+          "Name": "label",
+          "Value": "images/xuv300.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5WQsTzm0E5uarJL04qFcmRWi+N1y5Zirn33Mh2P1EbM="
+        }
+      ]
+    },
+    {
+      "Route": "images/xuv300.jpg",
+      "AssetFile": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\wwwroot\\images\\xuv300.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "93411"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5WQsTzm0E5uarJL04qFcmRWi+N1y5Zirn33Mh2P1EbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Jul 2025 12:02:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5WQsTzm0E5uarJL04qFcmRWi+N1y5Zirn33Mh2P1EbM="
+        }
+      ]
+    }
+  ]
 }

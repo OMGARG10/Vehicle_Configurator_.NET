@@ -48,6 +48,27 @@ namespace Vehicle_Configurator_Project.Repositories
             await _context.SaveChangesAsync();
             return alternateComponent;
         }
+        public async Task<Dictionary<int, List<AlternateComponent>>> GetGroupedAlternatesByModelAsync(int modelId)
+        {
+            return await _context.AlternateComponents
+                .Where(ac => ac.ModelId == modelId)
+                .GroupBy(ac => ac.BaseComponentId)
+                .ToDictionaryAsync(g => g.Key, g => g.ToList());
+        }
+        public async Task<List<AlternateComponent>> GetByModelIdAndCompIdAsync(int modelId, int compId)
+        {
+            var alternates = await _context.AlternateComponents
+                .Include(a => a.Model)
+                    .ThenInclude(m => m.Manufacturer)
+                .Include(a => a.Model)
+                    .ThenInclude(m => m.Segment)
+                .Include(a => a.BaseComponent)
+                .Include(a => a.AlternateComponentEntity)
+                .Where(a => a.ModelId == modelId && a.BaseComponent.CompId == compId)
+                .ToListAsync();
+
+            return alternates;
+        }
     }
 }
 

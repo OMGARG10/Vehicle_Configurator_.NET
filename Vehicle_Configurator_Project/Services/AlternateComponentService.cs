@@ -1,6 +1,7 @@
 ﻿using Vehicle_Configurator_Project.IRepositories;
 using Vehicle_Configurator_Project.IServices;
 using Vehicle_Configurator_Project.Models;
+using Vehicle_Configurator_Project.Repositories;
 
 namespace Vehicle_Configurator_Project.Services
 {
@@ -31,6 +32,10 @@ namespace Vehicle_Configurator_Project.Services
         public Task<AlternateComponent> CreateAsync(AlternateComponent alternateComponent)
         {
             return _repository.CreateAsync(alternateComponent);
+        }
+        public async Task<Dictionary<int, List<AlternateComponent>>> GetGroupedAlternatesByModelAsync(int modelId)
+        {
+            return await _repository.GetGroupedAlternatesByModelAsync(modelId);
         }
     }
 }

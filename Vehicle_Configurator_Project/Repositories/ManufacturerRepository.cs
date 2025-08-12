@@ -20,10 +20,13 @@ namespace Vehicle_Configurator_Project.Repositories
 
         public async Task<List<Manufacturer>> GetBySegmentIdAsync(int segId)
         {
-            return await context.SegmentManufacturerAssociations
-                .Where(s => s.SegId == segId)
-                .Select(s => s.Manufacturer)
+            return await context.Manufacturers
+                .Where(m => m.Models.Any(model => model.SegmentId == segId))
                 .ToListAsync();
+        }
+        public async Task<Manufacturer> GetByIdAsync(int id)
+        {
+            return await context.Manufacturers.FindAsync(id);
         }
     }
 }

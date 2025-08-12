@@ -23,5 +23,10 @@ namespace Vehicle_Configurator_Project.Services
         {
             return await repository.GetBySegmentIdAsync(segId);
         }
+        public async Task<Manufacturer> GetManufacturerByIdAsync(int manufacturerId)
+        {
+            return await repository.GetByIdAsync(manufacturerId);
+        }
+
     }
 }

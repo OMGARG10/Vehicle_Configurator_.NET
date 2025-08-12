@@ -390,7 +390,7 @@
         }
       }
     },
-    "/api/model": {
+    "/api/models": {
       "get": {
         "tags": [
           "Model"
@@ -421,6 +421,447 @@
                   "items": {
                     "$ref": "#/components/schemas/Model"
                   }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Model"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Model"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Model"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Model"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/by-segment/{segmentId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "segmentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/by-segment/{segmentId}/manufacturer/{manufacturerId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "segmentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "manufacturerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Model"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/default/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Model"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/configurable/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/components/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VehicleDetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/alternate-components/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/AlternateComponent"
+                      }
+                    }
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/AlternateComponent"
+                      }
+                    }
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/AlternateComponent"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/models/price/{modelId}": {
+      "get": {
+        "tags": [
+          "Model"
+        ],
+        "parameters": [
+          {
+            "name": "modelId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "number",
+                  "format": "double"
                 }
               }
             }
@@ -587,6 +1028,68 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/user/register": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/user/login": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequst"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequst"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthRequst"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -770,26 +1273,40 @@
       "AlternateComponent": {
         "type": "object",
         "properties": {
-          "altId": {
+          "AltId": {
             "type": "integer",
             "format": "int32"
           },
-          "model": {
+          "Model": {
             "$ref": "#/components/schemas/Model"
           },
-          "baseComponent": {
+          "BaseComponent": {
             "$ref": "#/components/schemas/Component"
           },
-          "alternateComponentId": {
+          "AlternateComponentId": {
             "type": "integer",
             "format": "int32"
           },
-          "alternateComponentEntity": {
+          "AlternateComponentEntity": {
             "$ref": "#/components/schemas/Component"
           },
-          "deltaPrice": {
+          "DeltaPrice": {
             "type": "number",
             "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AuthRequst": {
+        "type": "object",
+        "properties": {
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -798,28 +1315,36 @@
       "Component": {
         "type": "object",
         "properties": {
-          "compId": {
+          "CompId": {
             "type": "integer",
             "format": "int32"
           },
-          "compName": {
+          "CompName": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
+      "HoldingType": {
+        "enum": [
+          "Proprietary",
+          "Pvt_Ltd",
+          "Ltd"
+        ],
+        "type": "string"
+      },
       "Manufacturer": {
         "required": [
-          "mfgName"
+          "MfgName"
         ],
         "type": "object",
         "properties": {
-          "mfgId": {
+          "MfgId": {
             "type": "integer",
             "format": "int32"
           },
-          "mfgName": {
+          "MfgName": {
             "minLength": 1,
             "type": "string"
           }
@@ -829,44 +1354,44 @@
       "Model": {
         "type": "object",
         "properties": {
-          "modelId": {
+          "ModelId": {
             "type": "integer",
             "format": "int32"
           },
-          "modelName": {
+          "ModelName": {
             "type": "string",
             "nullable": true
           },
-          "manufacturerId": {
+          "ManufacturerId": {
             "type": "integer",
             "format": "int32"
           },
-          "manufacturer": {
+          "Manufacturer": {
             "$ref": "#/components/schemas/Manufacturer"
           },
-          "segmentId": {
+          "SegmentId": {
             "type": "integer",
             "format": "int32"
           },
-          "segment": {
+          "Segment": {
             "$ref": "#/components/schemas/Segment"
           },
-          "defaultComponents": {
+          "DefaultComponents": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/VehicleDetail"
             },
             "nullable": true
           },
-          "minQty": {
+          "MinQty": {
             "type": "integer",
             "format": "int32"
           },
-          "price": {
+          "Price": {
             "type": "number",
             "format": "double"
           },
-          "imagePath": {
+          "ImagePath": {
             "type": "string",
             "nullable": true
           }
@@ -875,49 +1400,141 @@
       },
       "Segment": {
         "required": [
-          "minQuantity",
-          "segName"
+          "MinQuantity",
+          "SegName"
         ],
         "type": "object",
         "properties": {
-          "segId": {
+          "SegId": {
             "type": "integer",
             "format": "int32"
           },
-          "segName": {
+          "SegName": {
             "minLength": 1,
             "type": "string"
           },
-          "minQuantity": {
+          "MinQuantity": {
             "type": "integer",
             "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "VehicleDetail": {
+      "User": {
         "required": [
-          "compType",
-          "isConfigurable"
+          "add1",
+          "auth_name",
+          "auth_tel",
+          "city",
+          "company_name",
+          "company_st_no",
+          "company_vat_no",
+          "designation",
+          "email",
+          "password",
+          "pin",
+          "state"
         ],
         "type": "object",
         "properties": {
-          "configId": {
+          "company_name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "add1": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "add2": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "state": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "pin": {
             "type": "integer",
             "format": "int32"
           },
-          "componentId": {
+          "tel": {
+            "type": "string",
+            "nullable": true
+          },
+          "fax": {
+            "type": "string",
+            "nullable": true
+          },
+          "auth_name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "designation": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "auth_tel": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cell": {
+            "type": "string",
+            "nullable": true
+          },
+          "company_st_no": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "company_vat_no": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "tax_pan": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "holding_type": {
+            "$ref": "#/components/schemas/HoldingType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VehicleDetail": {
+        "required": [
+          "CompType",
+          "IsConfigurable"
+        ],
+        "type": "object",
+        "properties": {
+          "ConfigId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ComponentId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "component": {
+          "Component": {
             "$ref": "#/components/schemas/Component"
           },
-          "compType": {
+          "CompType": {
             "type": "string"
           },
-          "isConfigurable": {
+          "IsConfigurable": {
             "type": "string"
           }
         },
