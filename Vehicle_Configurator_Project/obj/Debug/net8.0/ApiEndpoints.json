@@ -276,8 +276,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "invoiceWrapper",
-        "Type": "Vehicle_Configurator_Project.Models.InvoiceWrapper",
+        "Name": "invoiceWrapperDto",
+        "Type": "Vehicle_Configurator_Project.DTOS.InvoiceWrapperDTO",
         "IsRequired": true
       }
     ],

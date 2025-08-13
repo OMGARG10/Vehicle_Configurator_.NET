@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\invoicewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\invoicewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\dtos\\componentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:dtos\\componentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\dtos\\invoicedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:dtos\\invoicedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\dtos\\invoiceheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:dtos\\invoiceheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\dtos\\invoicewrapperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:dtos\\invoicewrapperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\invoicewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\invoicewrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\invoiceheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:controllers\\invoicedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\invoicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,10 +215,6 @@
       "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\vehicledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\vehicledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -255,10 +275,6 @@
       "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:irepositories\\isegmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|c:\\users\\omdee\\onedrive\\documents\\.net vehicle configurator\\vehicle_configurator_project\\iservices\\icomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9495AB33-BCC3-4A6E-8F52-D456E902F834}|Vehicle_Configurator_Project.csproj|solutionrelative:iservices\\icomponentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -279,7 +295,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -299,20 +315,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComponentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\ComponentDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\ComponentDTO.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\ComponentDTO.cs",
+              "RelativeToolTip": "DTOS\\ComponentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T03:44:34.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "InvoiceDetailDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceDetailDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\InvoiceDetailDTO.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceDetailDTO.cs",
+              "RelativeToolTip": "DTOS\\InvoiceDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T03:44:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvoiceHeaderDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceHeaderDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\InvoiceHeaderDTO.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceHeaderDTO.cs",
+              "RelativeToolTip": "DTOS\\InvoiceHeaderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T03:43:38.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvoiceWrapperDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceWrapperDTO.cs",
+              "RelativeDocumentMoniker": "DTOS\\InvoiceWrapperDTO.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\DTOS\\InvoiceWrapperDTO.cs",
+              "RelativeToolTip": "DTOS\\InvoiceWrapperDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T03:42:53.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InvoiceDetailController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\InvoiceDetailController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoiceDetailController.cs",
               "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\InvoiceDetailController.cs",
               "RelativeToolTip": "Controllers\\InvoiceDetailController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAwwIQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T12:51:56.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T04:02:17.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceDetail.cs",
+              "RelativeToolTip": "Models\\InvoiceDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T08:59:34.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "InvoiceDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\InvoiceDetailRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\InvoiceDetailRepository.cs",
@@ -320,38 +414,24 @@
               "RelativeToolTip": "Repositories\\InvoiceDetailRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T12:23:50.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T12:23:50.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InvoiceDetail.cs",
-              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceDetail.cs",
-              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
-              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceDetail.cs",
-              "RelativeToolTip": "Models\\InvoiceDetail.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T08:59:34.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "InvoiceWrapper.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceWrapper.cs",
               "RelativeDocumentMoniker": "Models\\InvoiceWrapper.cs",
               "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceWrapper.cs",
               "RelativeToolTip": "Models\\InvoiceWrapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T13:11:28.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "InvoiceService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\InvoiceService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceService.cs",
@@ -359,25 +439,37 @@
               "RelativeToolTip": "Services\\InvoiceService.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAYwHMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:45:45.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T10:45:45.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "InvoiceHeader.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceHeader.cs",
               "RelativeDocumentMoniker": "Models\\InvoiceHeader.cs",
               "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceHeader.cs",
               "RelativeToolTip": "Models\\InvoiceHeader.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T08:58:42.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Component.cs",
+              "RelativeDocumentMoniker": "Models\\Component.cs",
+              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Component.cs",
+              "RelativeToolTip": "Models\\Component.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T03:34:02.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -385,12 +477,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAQwE0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T04:01:33.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T04:01:33.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ApplicationDbContext.cs",
@@ -398,12 +489,11 @@
               "RelativeToolTip": "ApplicationDbContext.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T04:00:14.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T04:00:14.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "InvoiceDetailService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\InvoiceDetailService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceDetailService.cs",
@@ -411,12 +501,11 @@
               "RelativeToolTip": "Services\\InvoiceDetailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T12:50:25.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T12:50:25.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "IInvoiceHeaderService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IInvoiceHeaderService.cs",
               "RelativeDocumentMoniker": "IServices\\IInvoiceHeaderService.cs",
@@ -424,12 +513,11 @@
               "RelativeToolTip": "IServices\\IInvoiceHeaderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:22:41.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T09:22:41.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "InvoiceHeaderRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\InvoiceHeaderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\InvoiceHeaderRepository.cs",
@@ -437,12 +525,11 @@
               "RelativeToolTip": "Repositories\\InvoiceHeaderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:22:04.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T09:22:04.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "InvoiceHeaderController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\InvoiceHeaderController.cs",
               "RelativeDocumentMoniker": "Controllers\\InvoiceHeaderController.cs",
@@ -450,12 +537,11 @@
               "RelativeToolTip": "Controllers\\InvoiceHeaderController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:24:13.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T09:24:13.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ManufacturerController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\ManufacturerController.cs",
               "RelativeDocumentMoniker": "Controllers\\ManufacturerController.cs",
@@ -463,12 +549,11 @@
               "RelativeToolTip": "Controllers\\ManufacturerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T05:27:19.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T05:27:19.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "InvoiceHeaderService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\InvoiceHeaderService.cs",
               "RelativeDocumentMoniker": "Services\\InvoiceHeaderService.cs",
@@ -476,12 +561,11 @@
               "RelativeToolTip": "Services\\InvoiceHeaderService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAYwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T09:23:29.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T09:23:29.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -493,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "AlternateComponentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\AlternateComponentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AlternateComponentRepository.cs",
@@ -505,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "IInvoiceDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IInvoiceDetailRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IInvoiceDetailRepository.cs",
@@ -517,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "VehicleDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\VehicleDetailRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\VehicleDetailRepository.cs",
@@ -529,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ModelRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\ModelRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ModelRepository.cs",
@@ -541,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -553,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "IInvoiceHeaderRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IInvoiceHeaderRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IInvoiceHeaderRepository.cs",
@@ -565,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "IAlternateComponentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IAlternateComponentRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IAlternateComponentRepository.cs",
@@ -577,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "IVehicleDetailRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IVehicleDetailRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IVehicleDetailRepository.cs",
@@ -589,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "IModelRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IModelRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IModelRepository.cs",
@@ -601,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IUserRepository.cs",
@@ -613,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "ComponentSelection.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\ComponentSelection.cs",
               "RelativeDocumentMoniker": "Models\\ComponentSelection.cs",
@@ -625,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "AlternateComponentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\AlternateComponentService.cs",
               "RelativeDocumentMoniker": "Services\\AlternateComponentService.cs",
@@ -637,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "IAlternateComponentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IAlternateComponentService.cs",
               "RelativeDocumentMoniker": "IServices\\IAlternateComponentService.cs",
@@ -649,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "InvoiceCreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\InvoiceCreateRequest.cs",
               "RelativeDocumentMoniker": "Models\\InvoiceCreateRequest.cs",
@@ -661,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "IInvoiceDetailService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IInvoiceDetailService.cs",
               "RelativeDocumentMoniker": "IServices\\IInvoiceDetailService.cs",
@@ -673,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -685,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Token\\JwtService.cs",
               "RelativeDocumentMoniker": "Token\\JwtService.cs",
@@ -697,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Token\\IJwtService.cs",
               "RelativeDocumentMoniker": "Token\\IJwtService.cs",
@@ -709,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "AuthRequst.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Token\\AuthRequst.cs",
               "RelativeDocumentMoniker": "Token\\AuthRequst.cs",
@@ -721,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -733,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "ModelController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\ModelController.cs",
               "RelativeDocumentMoniker": "Controllers\\ModelController.cs",
@@ -745,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "IServices\\IUserService.cs",
@@ -757,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "ComponentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\ComponentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ComponentRepository.cs",
@@ -769,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "ComponentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\ComponentService.cs",
               "RelativeDocumentMoniker": "Services\\ComponentService.cs",
@@ -781,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "AlternateComponent.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\AlternateComponent.cs",
               "RelativeDocumentMoniker": "Models\\AlternateComponent.cs",
@@ -793,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "IComponentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IComponentRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IComponentRepository.cs",
@@ -805,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "AlternateComponentController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\AlternateComponentController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlternateComponentController.cs",
@@ -817,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "ComponentController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\ComponentController.cs",
               "RelativeDocumentMoniker": "Controllers\\ComponentController.cs",
@@ -829,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "SegmentController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\SegmentController.cs",
               "RelativeDocumentMoniker": "Controllers\\SegmentController.cs",
@@ -841,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "ModelService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\ModelService.cs",
               "RelativeDocumentMoniker": "Services\\ModelService.cs",
@@ -853,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "IModelService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IModelService.cs",
               "RelativeDocumentMoniker": "IServices\\IModelService.cs",
@@ -865,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Model.cs",
               "RelativeDocumentMoniker": "Models\\Model.cs",
@@ -877,19 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-11T04:02:17.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "VehicleDetail.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\VehicleDetail.cs",
               "RelativeDocumentMoniker": "Models\\VehicleDetail.cs",
@@ -901,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "SegmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\SegmentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\SegmentRepository.cs",
@@ -913,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "ManufacturerRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Repositories\\ManufacturerRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ManufacturerRepository.cs",
@@ -925,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "ManufacturerService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\ManufacturerService.cs",
               "RelativeDocumentMoniker": "Services\\ManufacturerService.cs",
@@ -937,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "IManufacturerService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IManufacturerService.cs",
               "RelativeDocumentMoniker": "IServices\\IManufacturerService.cs",
@@ -949,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "IManufacturerRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\IManufacturerRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\IManufacturerRepository.cs",
@@ -961,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "Segment.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Segment.cs",
               "RelativeDocumentMoniker": "Models\\Segment.cs",
@@ -973,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "Manufacturer.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Manufacturer.cs",
               "RelativeDocumentMoniker": "Models\\Manufacturer.cs",
@@ -985,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "SegmentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\SegmentService.cs",
               "RelativeDocumentMoniker": "Services\\SegmentService.cs",
@@ -997,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "VehicleDetailController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Controllers\\VehicleDetailController.cs",
               "RelativeDocumentMoniker": "Controllers\\VehicleDetailController.cs",
@@ -1009,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "VehicleDetailService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Services\\VehicleDetailService.cs",
               "RelativeDocumentMoniker": "Services\\VehicleDetailService.cs",
@@ -1021,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "IVehicleDetailService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IVehicleDetailService.cs",
               "RelativeDocumentMoniker": "IServices\\IVehicleDetailService.cs",
@@ -1033,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "ISegmentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\ISegmentService.cs",
               "RelativeDocumentMoniker": "IServices\\ISegmentService.cs",
@@ -1045,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "SegmentManufacturerAssociation.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\SegmentManufacturerAssociation.cs",
               "RelativeDocumentMoniker": "Models\\SegmentManufacturerAssociation.cs",
@@ -1057,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "ISegmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IRepositories\\ISegmentRepository.cs",
               "RelativeDocumentMoniker": "IRepositories\\ISegmentRepository.cs",
@@ -1069,19 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "Component.cs",
-              "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Component.cs",
-              "RelativeDocumentMoniker": "Models\\Component.cs",
-              "ToolTip": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\Models\\Component.cs",
-              "RelativeToolTip": "Models\\Component.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T03:34:02.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "IComponentService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\OneDrive\\Documents\\.NET VEHICLE CONFIGURATOR\\Vehicle_Configurator_Project\\IServices\\IComponentService.cs",
               "RelativeDocumentMoniker": "IServices\\IComponentService.cs",
@@ -1093,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "MfgMasterController.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\Downloads\\MfgMasterController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\MfgMasterController.cs",
@@ -1104,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "MfgService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\Downloads\\MfgService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\MfgService.cs",
@@ -1115,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "IMfgService.cs",
               "DocumentMoniker": "C:\\Users\\omdee\\Downloads\\IMfgService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\IMfgService.cs",

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Vehicle_Configurator_Project.DTOS;
 using Vehicle_Configurator_Project.IServices;
 using Vehicle_Configurator_Project.Models;
 using Vehicle_Configurator_Project.Services;
@@ -61,26 +62,27 @@ public async Task<ActionResult<List<InvoiceDetail>>> GetInvoiceDetailsByInvoice(
 
 
         [HttpPost("sendemail")]
-        public async Task<ActionResult<string>> SendEmailViaMicroservice([FromBody] InvoiceWrapper invoiceWrapper)
+        public async Task<ActionResult<string>> SendEmailViaMicroservice([FromBody] InvoiceWrapperDTO invoiceWrapperDto)
         {
-            if (invoiceWrapper == null || invoiceWrapper.InvoiceDetails == null || !invoiceWrapper.InvoiceDetails.Any())
+            if (invoiceWrapperDto == null || invoiceWrapperDto.InvoiceDetails == null || !invoiceWrapperDto.InvoiceDetails.Any())
                 return BadRequest("Invoice details are missing or invalid.");
 
+            // Map DTO data to the payload for Java microservice
             var headerMap = new
             {
-                invId = invoiceWrapper.InvoiceHeader?.InvId,
-                custDetails = invoiceWrapper.InvoiceHeader?.CustDetails,
-                invDate = invoiceWrapper.InvoiceHeader?.InvDate.ToString("o"),
-                quantity = invoiceWrapper.InvoiceHeader?.Quantity,
-                finalAmount = invoiceWrapper.InvoiceHeader?.FinalAmount,
-                tax = invoiceWrapper.InvoiceHeader?.Tax,
-                totalAmount = invoiceWrapper.InvoiceHeader?.TotalAmount
+                invId = invoiceWrapperDto.InvoiceHeader?.InvId,
+                custDetails = invoiceWrapperDto.InvoiceHeader?.CustDetails,
+                invDate = invoiceWrapperDto.InvoiceHeader?.InvDate,  // string already
+                quantity = invoiceWrapperDto.InvoiceHeader?.Quantity,
+                finalAmount = invoiceWrapperDto.InvoiceHeader?.FinalAmount,
+                tax = invoiceWrapperDto.InvoiceHeader?.Tax,
+                totalAmount = invoiceWrapperDto.InvoiceHeader?.TotalAmount
             };
 
-            var modelId = invoiceWrapper.ModelId;
+            var modelId = invoiceWrapperDto.ModelId;
 
             var detailsList = new List<object>();
-            foreach (var detail in invoiceWrapper.InvoiceDetails)
+            foreach (var detail in invoiceWrapperDto.InvoiceDetails)
             {
                 if (detail?.Component == null) continue;
 
@@ -88,12 +90,13 @@ public async Task<ActionResult<List<InvoiceDetail>>> GetInvoiceDetailsByInvoice(
 
                 if (string.Equals(detail.IsAlternate, "Y", StringComparison.OrdinalIgnoreCase))
                 {
-                    var alternates = await _alternateComponentService.GetByModelIdAndCompIdAsync(modelId, detail.Component.CompId);
+                    // Assuming you have a method/service to get alternate price:
+                    var alternates = await _alternateComponentService.GetByModelIdAndCompIdAsync(modelId, detail.Component.CompId ?? 0);
                     var match = alternates.FirstOrDefault();
                     if (match?.DeltaPrice != null)
                         price = match.DeltaPrice.Value;
                 }
-                // If not alternate, price remains 0 or you can assign any default price if you want
+                // else price stays 0 or default
 
                 detailsList.Add(new
                 {
@@ -106,7 +109,6 @@ public async Task<ActionResult<List<InvoiceDetail>>> GetInvoiceDetailsByInvoice(
                     isAlternate = detail.IsAlternate
                 });
             }
-
 
             var emailPayload = new
             {

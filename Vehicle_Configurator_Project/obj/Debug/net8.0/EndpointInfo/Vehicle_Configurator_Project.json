@@ -483,17 +483,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoiceWrapper"
+                "$ref": "#/components/schemas/InvoiceWrapperDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoiceWrapper"
+                "$ref": "#/components/schemas/InvoiceWrapperDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/InvoiceWrapper"
+                "$ref": "#/components/schemas/InvoiceWrapperDTO"
               }
             }
           }
@@ -1561,6 +1561,26 @@
         },
         "additionalProperties": false
       },
+      "ComponentDTO": {
+        "type": "object",
+        "properties": {
+          "CompId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CompName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Price": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "HoldingType": {
         "enum": [
           "Proprietary",
@@ -1612,6 +1632,58 @@
         },
         "additionalProperties": false
       },
+      "InvoiceDetailDTO": {
+        "type": "object",
+        "properties": {
+          "Component": {
+            "$ref": "#/components/schemas/ComponentDTO"
+          },
+          "IsAlternate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoiceHeaderDTO": {
+        "type": "object",
+        "properties": {
+          "InvId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CustDetails": {
+            "type": "string",
+            "nullable": true
+          },
+          "InvDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "Quantity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "FinalAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Tax": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "TotalAmount": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "InvoiceWrapper": {
         "type": "object",
         "properties": {
@@ -1633,6 +1705,34 @@
               "$ref": "#/components/schemas/InvoiceComponentDetail"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoiceWrapperDTO": {
+        "type": "object",
+        "properties": {
+          "InvoiceHeader": {
+            "$ref": "#/components/schemas/InvoiceHeaderDTO"
+          },
+          "InvoiceDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceDetailDTO"
+            },
+            "nullable": true
+          },
+          "ModelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "UserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Quantity": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
