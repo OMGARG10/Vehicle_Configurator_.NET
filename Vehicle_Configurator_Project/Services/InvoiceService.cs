@@ -94,9 +94,14 @@ namespace Vehicle_Configurator_Project.Services
                 invoiceDetails.Add(detail);
             }
 
-            var finalAmount = baseAmount + (altAmount * wrapper.Quantity);
+
+            var unitPrice = model.Price + altAmount; 
+
+            var finalAmount = unitPrice * wrapper.Quantity;
+
             var tax = Math.Round(finalAmount * 0.18m, 2);
             var total = finalAmount + tax;
+
 
             header.FinalAmount = finalAmount;
             header.Tax = tax;
