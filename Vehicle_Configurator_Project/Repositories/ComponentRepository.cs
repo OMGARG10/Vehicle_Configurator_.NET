@@ -28,6 +28,16 @@ namespace Vehicle_Configurator_Project.Repositories
             return await context.Components.FirstOrDefaultAsync(c => c.CompName == compName);
         }
 
+        public async Task<decimal> GetAlternateComponentPriceAsync(int compId)
+        {
+            var price = await context.AlternateComponents
+                          .Where(ac => ac.AlternateComponentId == compId)
+                          .Select(ac => ac.DeltaPrice ?? 0m)
+                          .FirstOrDefaultAsync();
+
+            return price;
+        }
+
         public async Task<Component> CreateAsync(Component component)
         {
             context.Components.Add(component);

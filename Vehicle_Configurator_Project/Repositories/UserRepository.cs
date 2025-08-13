@@ -24,6 +24,8 @@ namespace Vehicle_Configurator_Project.Repositories
             await _context.SaveChangesAsync();
             return user;
         }
+        public async Task<User> GetByIdAsync(int userId) =>
+        await _context.Users.FindAsync(userId);
     }
 
 }

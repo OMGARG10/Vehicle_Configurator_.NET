@@ -196,6 +196,136 @@
     ]
   },
   {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceDetailController",
+    "Method": "GetAllInvoiceDetails",
+    "RelativePath": "api/invoicedetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Vehicle_Configurator_Project.Models.InvoiceDetail, Vehicle_Configurator_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceDetailController",
+    "Method": "AddInvoiceDetail",
+    "RelativePath": "api/invoicedetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detail",
+        "Type": "Vehicle_Configurator_Project.Models.InvoiceDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Vehicle_Configurator_Project.Models.InvoiceDetail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceDetailController",
+    "Method": "GetInvoiceDetailsByInvoice",
+    "RelativePath": "api/invoicedetail/byinvoice/{invoiceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Vehicle_Configurator_Project.Models.InvoiceDetail, Vehicle_Configurator_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceDetailController",
+    "Method": "SendEmailViaMicroservice",
+    "RelativePath": "api/invoicedetail/sendemail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceWrapper",
+        "Type": "Vehicle_Configurator_Project.Models.InvoiceWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceHeaderController",
+    "Method": "GetInvoiceById",
+    "RelativePath": "api/invoiceheader/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Vehicle_Configurator_Project.Controllers.InvoiceHeaderController",
+    "Method": "CreateInvoice",
+    "RelativePath": "api/invoiceheader/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wrapper",
+        "Type": "Vehicle_Configurator_Project.Models.InvoiceWrapper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Vehicle_Configurator_Project.Controllers.ManufacturerController",
     "Method": "GetManufacturersBySegment",
     "RelativePath": "api/manufacturers/seg/{segId}",

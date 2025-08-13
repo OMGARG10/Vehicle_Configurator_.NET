@@ -15,12 +15,14 @@
             _config = config;
         }
 
-        public string GenerateToken(string email)
+        // Updated to accept userId and email, and include UserId claim
+        public string GenerateToken(int userId, string email)
         {
             var claims = new[]
             {
-            new Claim(ClaimTypes.Name, email)
-        };
+        new Claim("UserId", userId.ToString()),  // add this
+        new Claim(ClaimTypes.Name, email)
+    };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -35,6 +37,7 @@
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         public string? ExtractUsername(string token)
         {
@@ -70,6 +73,4 @@
             };
         }
     }
-
-
 }

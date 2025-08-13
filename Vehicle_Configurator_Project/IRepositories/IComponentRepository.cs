@@ -8,5 +8,6 @@ namespace Vehicle_Configurator_Project.IRepositories
         Task<Component> GetByIdAsync(int compId);
         Task<Component> GetByNameAsync(string compName);
         Task<Component> CreateAsync(Component component);
+        Task<decimal> GetAlternateComponentPriceAsync(int compId);
     }
 }

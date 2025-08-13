@@ -37,7 +37,12 @@
             if (result != PasswordVerificationResult.Success)
                 throw new Exception("Invalid username or password");
 
-            return _jwtService.GenerateToken(user.Email);
+            return _jwtService.GenerateToken(user.UserId, user.Email);
+        }
+
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            return await _userRepository.GetByEmailAsync(email);
         }
     }
 

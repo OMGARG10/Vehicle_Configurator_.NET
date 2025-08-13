@@ -15,6 +15,8 @@ namespace Vehicle_Configurator_Project
         public DbSet<SegmentManufacturerAssociation> SegmentManufacturerAssociations { get; set; }
         public DbSet<AlternateComponent> AlternateComponents { get; set; }
         public DbSet<User>  Users { get; set; }
+        public DbSet<InvoiceHeader> InvoiceHeaders { get; set; }
+        public DbSet<InvoiceDetail> InvoiceDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

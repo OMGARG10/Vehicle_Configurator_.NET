@@ -341,6 +341,241 @@
         }
       }
     },
+    "/api/invoicedetail": {
+      "get": {
+        "tags": [
+          "InvoiceDetail"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "InvoiceDetail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceDetail"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceDetail"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceDetail"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvoiceDetail"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvoiceDetail"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvoiceDetail"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/invoicedetail/byinvoice/{invoiceId}": {
+      "get": {
+        "tags": [
+          "InvoiceDetail"
+        ],
+        "parameters": [
+          {
+            "name": "invoiceId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceDetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/invoicedetail/sendemail": {
+      "post": {
+        "tags": [
+          "InvoiceDetail"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/invoiceheader/create": {
+      "post": {
+        "tags": [
+          "InvoiceHeader"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceWrapper"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/invoiceheader/{id}": {
+      "get": {
+        "tags": [
+          "InvoiceHeader"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/manufacturers/seg/{segId}": {
       "get": {
         "tags": [
@@ -1333,6 +1568,74 @@
           "Ltd"
         ],
         "type": "string"
+      },
+      "InvoiceComponentDetail": {
+        "type": "object",
+        "properties": {
+          "CompId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IsAlternate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoiceDetail": {
+        "required": [
+          "Component",
+          "IsAlternate"
+        ],
+        "type": "object",
+        "properties": {
+          "InvDtlId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "InvoiceHeaderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Component": {
+            "$ref": "#/components/schemas/Component"
+          },
+          "ComponentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IsAlternate": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InvoiceWrapper": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ModelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InvoiceComponentDetail"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "Manufacturer": {
         "required": [

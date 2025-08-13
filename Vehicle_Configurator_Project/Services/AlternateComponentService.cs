@@ -37,5 +37,9 @@ namespace Vehicle_Configurator_Project.Services
         {
             return await _repository.GetGroupedAlternatesByModelAsync(modelId);
         }
+        public async Task<List<AlternateComponent>> GetByModelIdAndCompIdAsync(int modelId, int compId)
+        {
+            return await _repository.GetByModelIdAndCompIdAsync(modelId, compId);
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace Vehicle_Configurator_Project.IServices
         Task<AlternateComponent> GetByIdAsync(int altId);
         Task<AlternateComponent> CreateAsync(AlternateComponent alternateComponent);
         Task<Dictionary<int, List<AlternateComponent>>> GetGroupedAlternatesByModelAsync(int modelId);
+        Task<List<AlternateComponent>> GetByModelIdAndCompIdAsync(int modelId, int compId);
     }
 }
 

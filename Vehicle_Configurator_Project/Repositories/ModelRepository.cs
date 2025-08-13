@@ -80,5 +80,6 @@ namespace Vehicle_Configurator_Project.Repositories
             var model = await _context.Models.FindAsync(modelId);
             return model?.Price;
         }
+
     }
 }

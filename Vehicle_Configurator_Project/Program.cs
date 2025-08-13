@@ -77,6 +77,7 @@ namespace Vehicle_Configurator_Project
             
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddHttpClient();
 
             builder.Services.AddScoped<IModelRepository, ModelRepository>();
             builder.Services.AddScoped<IModelService, ModelService>();
@@ -93,6 +94,14 @@ namespace Vehicle_Configurator_Project
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+            builder.Services.AddScoped<IInvoiceHeaderRepository, InvoiceHeaderRepository>();
+            builder.Services.AddScoped<IInvoiceHeaderService, InvoiceHeaderService>();
+            builder.Services.AddScoped<IInvoiceDetailRepository, InvoiceDetailRepository>();
+            builder.Services.AddScoped<IInvoiceDetailService, InvoiceDetailService>();
+            builder.Services.AddScoped<InvoiceService>();
+            builder.Services.AddScoped<InvoiceDetailService>();
+            builder.Services.AddScoped<AlternateComponentService>();
+
 
 
             var app = builder.Build();

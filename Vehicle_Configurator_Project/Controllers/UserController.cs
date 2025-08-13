@@ -37,8 +37,19 @@
         {
             try
             {
+                // LoginAsync returns a JWT token string
                 var token = await _userService.LoginAsync(request.Email, request.Password);
-                return Ok(new { token });
+
+                // Get the full user details by email (UserId, Email)
+                var user = await _userService.GetUserByEmailAsync(request.Email);
+
+                // Return token along with userId and email
+                return Ok(new
+                {
+                    token,
+                    userId = user.UserId,  // UserId from your User model
+                    email = user.Email
+                });
             }
             catch (Exception ex)
             {
@@ -46,5 +57,4 @@
             }
         }
     }
-
 }
