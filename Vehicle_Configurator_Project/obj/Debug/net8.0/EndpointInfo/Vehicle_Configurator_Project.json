@@ -1599,6 +1599,11 @@
           "IsAlternate": {
             "type": "string",
             "nullable": true
+          },
+          "SelectedAltCompId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

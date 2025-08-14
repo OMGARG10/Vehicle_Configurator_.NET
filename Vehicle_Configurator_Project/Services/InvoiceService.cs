@@ -49,13 +49,14 @@ namespace Vehicle_Configurator_Project.Services
                 CustDetails = BuildCustomerDetails(user),
             };
 
-            decimal baseAmount = model.Price * wrapper.Quantity;
             decimal altAmount = 0;
 
-            // Create lookup map from wrapper.Details: compId -> IsAlternate
-            var selectedAlternates = wrapper.Details.ToDictionary(d => d.CompId, d => d.IsAlternate);
+            // Map: base component Id -> selected alternate component Id (nullable)
+            var selectedAlternates = wrapper.Details
+                .Where(d => d.IsAlternate == "Y" && d.SelectedAltCompId.HasValue)
+                .ToDictionary(d => d.CompId, d => d.SelectedAltCompId.Value);
 
-            // Fetch all default components for the model (configurable and non-configurable)
+            // Fetch all default components for the model
             var defaultComponents = await _vehicleDetailRepo.GetByModelIdAsync(model.ModelId);
 
             var invoiceDetails = new List<InvoiceDetail>();
@@ -70,12 +71,11 @@ namespace Vehicle_Configurator_Project.Services
                     InvoiceHeaderId = header.InvId
                 };
 
-                if (selectedAlternates.TryGetValue(baseCompId, out var isAlternate) && isAlternate == "Y")
+                if (selectedAlternates.TryGetValue(baseCompId, out var selectedAltCompId))
                 {
-                    var altComps = await _alternateCompRepo.GetByModelIdAndCompIdAsync(model.ModelId, baseCompId);
-
-                    var altComp = altComps.FirstOrDefault()
-                        ?? throw new Exception($"Alternate component not found for baseCompId {baseCompId} and modelId {model.ModelId}");
+                    // Fetch the selected alternate component
+                    var altComp = await _alternateCompRepo.GetByIdAsync(selectedAltCompId)
+                        ?? throw new Exception($"Selected alternate component not found: {selectedAltCompId}");
 
                     altAmount += altComp.DeltaPrice ?? 0m;
 
@@ -83,9 +83,9 @@ namespace Vehicle_Configurator_Project.Services
                     detail.ComponentId = altComp.AlternateComponentEntity.CompId;
                     detail.IsAlternate = "Y";
                 }
-
                 else
                 {
+                    // Use default/base component
                     detail.Component = vd.Component;
                     detail.ComponentId = vd.Component.CompId;
                     detail.IsAlternate = "N";
@@ -94,19 +94,17 @@ namespace Vehicle_Configurator_Project.Services
                 invoiceDetails.Add(detail);
             }
 
-
-            var unitPrice = model.Price + altAmount; 
-
+            // Calculate final amounts
+            var unitPrice = model.Price + altAmount;
             var finalAmount = unitPrice * wrapper.Quantity;
-
             var tax = Math.Round(finalAmount * 0.18m, 2);
             var total = finalAmount + tax;
-
 
             header.FinalAmount = finalAmount;
             header.Tax = tax;
             header.TotalAmount = total;
 
+            // Save header and details
             await _invoiceHeaderRepo.AddAsync(header);
             await _invoiceDetailRepo.AddRangeAsync(invoiceDetails);
             await _invoiceHeaderRepo.SaveChangesAsync();
@@ -122,10 +120,10 @@ namespace Vehicle_Configurator_Project.Services
                 $"Company VAT No: {user.CompanyVatNo}, Holding Type: {user.Holding_Type}, Tax PAN: {user.TaxPan}, " +
                 $"Address: {user.Add1}, {user.Add2}, City: {user.City}, State: {user.State}, PIN: {user.Pin}";
         }
+
         public async Task<InvoiceHeader?> GetInvoiceByIdAsync(int id)
         {
             return await _invoiceHeaderRepo.GetByIdAsync(id);
         }
     }
-
 }

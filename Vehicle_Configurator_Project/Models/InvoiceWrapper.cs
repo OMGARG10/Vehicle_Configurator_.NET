@@ -21,6 +21,7 @@ namespace Vehicle_Configurator_Project.Models
         {
             public int CompId { get; set; }
             public string IsAlternate { get; set; } // "Y" or "N"
+            public int? SelectedAltCompId { get; set; }
         }
     }
 }
